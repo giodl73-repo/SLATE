@@ -199,4 +199,3 @@ Required before implementation planning:
 - [~] Unknowns are resolved, blocked, deferred, or converted to discovery work (SPEC-UNK-001..005 are discovery/defer/accept-risk).
 - [x] Verification and validation methods are credible for the controlled claim.
 Rationale: the baseline is coherent enough to drive trace, verification, and the review gate. Residual risk is concentrated in cross-scale data openness, pathway-edge transfer semantics, single-score fairness, non-fungible seat/teacher/program capacity, provisional weights/SLA thresholds, and scale-nesting representation, all deferred to the corpus calibration wave rather than blocking the minimum slice.
-
