@@ -1,0 +1,13 @@
+[package]
+name = "slate-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+slate-network = { path = "../slate-network" }
+slate-corpus = { path = "../slate-corpus" }
+slate-score = { path = "../slate-score" }
+slate-tier = { path = "../slate-tier" }
+slate-gap = { path = "../slate-gap" }

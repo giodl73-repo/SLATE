@@ -1,0 +1,10 @@
+[package]
+name = "slate-score"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+thiserror = "1"
+slate-network = { path = "../slate-network" }
+slate-corpus = { path = "../slate-corpus" }

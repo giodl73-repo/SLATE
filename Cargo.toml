@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/slate-network",
+    "crates/slate-corpus",
+    "crates/slate-score",
+    "crates/slate-tier",
+    "crates/slate-gap",
+    "crates/slate-cli",
+]
