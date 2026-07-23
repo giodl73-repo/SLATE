@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: SLATE open adoption guide
+    url: https://github.com/giodl73-repo/SLATE/blob/master/docs/adoption/README.md
+    about: Start here before proposing aggregate education-access review.

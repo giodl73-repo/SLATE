@@ -14,12 +14,35 @@ workforce, program breadth, affordability, continuity, equity, and resilience.
 > funding or assignment decision, student-level advice, or advocacy brief, and
 > it claims no district, state, ministry, board, institution, or funder endorsement.
 
+## Use SLATE
+
+SLATE is public and open to use as a reference model for aggregate,
+evidence-gated education-access analysis. To scope a safe transfer test, source
+review, or aggregate-only local adaptation, start with
+[`docs/adoption/README.md`](docs/adoption/README.md).
+
 ## Why this matters
 
 Education capacity is non-fungible: an available seat in the wrong location,
 grade, language, program, pathway, or support environment does not close the
 gap. SLATE tests whether SHIELD's service-network transfer strains recur in
 education rather than forcing a physical-flow model onto students and schools.
+
+## Why this is harder than physical infrastructure
+
+SLATE cannot treat capacity as a fungible physical flow. A seat, educator,
+program, grade band, language pathway, transfer route, affordability condition,
+and support environment are not interchangeable.
+
+That makes the evidence boundary stricter:
+
+- use aggregate and synthetic fixtures unless a source is explicitly public and
+  safe;
+- never introduce student records or individual educational recommendations;
+- keep accreditation, assignment, funding, licensing, and pedagogy claims held
+  unless a qualified external authority and source path support them;
+- treat transfer-strain findings as service-network evidence, not student-level
+  advice.
 
 ## What is implemented
 
@@ -51,6 +74,7 @@ CORPUS -> SCORE -> TIER-SLA -> GAP -> CONCEPT -> REVIEW -> DESIGN
 ## Documentation
 
 - [`PRODUCT_PLAN.md`](PRODUCT_PLAN.md)
+- [`docs/adoption/`](docs/adoption)
 - [`docs/vtrace/`](docs/vtrace)
 - [`context/waves/`](context/waves)
 - [`.roles/ROLE.md`](.roles/ROLE.md)
