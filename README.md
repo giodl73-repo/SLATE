@@ -8,6 +8,11 @@ SLATE scores schools, institutions, educators, programs, attendance boundaries,
 feeder paths, transfers, and articulation pathways across access, capacity,
 workforce, program breadth, affordability, continuity, equity, and resilience.
 
+The repo-local [VERDICT capability assessment](docs/vtrace/CAPABILITY_ASSESSMENT.md)
+scores the current program **10/21**. The executable framework is present; the
+next evidence-producing step is a source-custodied public aggregate corpus that
+can replace synthetic-only demonstrations.
+
 **Series:** [Applied Systems](https://github.com/giodl73-repo/giodl73-repo/blob/main/series/applied-systems.md)
 
 ## Infrastructure 2.0 family
