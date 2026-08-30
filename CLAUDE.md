@@ -37,7 +37,7 @@ In corpus entries and design proposals: no "obviously needed," "critical gap," "
 
 ## 6. VTRACE Governance
 
-SLATE's planning baseline lives in `docs/vtrace/` and is authored one deliverable at a time to a `.roles` review fixed point. Do not start implementation code until the relevant work package is accepted. implementation automation builds later code from work packages; this foundation is markdown-only.
+SLATE's planning baseline lives in `docs/vtrace/` and is authored one deliverable at a time to a `.roles` review fixed point. The initial implementation baseline now exists, but future code, corpus, or public-claim changes still need work-package scope, validation, and review.
 
 ## 7. Review Panel
 

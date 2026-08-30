@@ -20,12 +20,12 @@ VTRACE trace.
 
 | Pulse | Work Package | Status | Outcome |
 |------:|--------------|--------|---------|
-| 01 | WP-001 `slate-network` | pending | School/pathway kernel: identity, connectivity, diverse paths, capacity_seats and typed DemandBasis helpers. |
-| 02 | WP-002 `slate-corpus` | pending | Corpus model + scale/market tags + schema + sources + evidence labels. |
-| 03 | WP-003 `slate-score` | pending | Dimension scoring DIM-01..13 + rubric record. |
-| 04 | WP-004 `slate-tier` | pending | Tier T1–T4 + SLA conformance + tier-SLA gap. |
-| 05 | WP-005 `slate-gap` | pending | Gap analysis (scale-filtered) + null/transfer result. |
-| 06 | WP-006 `slate-cli` | pending | CLI orchestration (`--scale`) + reproducible artifacts. |
+| 01 | WP-001 `slate-network` | done | School/pathway kernel: identity, connectivity, diverse paths, capacity_seats and typed DemandBasis helpers. |
+| 02 | WP-002 `slate-corpus` | done | Corpus model + scale/market tags + schema + sources + evidence labels. |
+| 03 | WP-003 `slate-score` | done | Dimension scoring DIM-01..13 + rubric record. |
+| 04 | WP-004 `slate-tier` | done | Tier T1–T4 + SLA conformance + tier-SLA gap. |
+| 05 | WP-005 `slate-gap` | done | Gap analysis (scale-filtered) + null/transfer result. |
+| 06 | WP-006 `slate-cli` | done | CLI orchestration (`--scale`) + reproducible artifacts. |
 
 ## Success criteria
 - Each work package meets its exit criteria and verification commands.
