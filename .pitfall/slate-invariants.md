@@ -50,7 +50,7 @@ systemic share, and cross-scale exclusion.
 
 ## SLATE-I-04: Fixture Validation Is Not Public Corpus Validation
 
-**Status:** PARTIAL
+**Status:** VERIFIED
 
 **Claim:** Passing synthetic/fixture tests does not authorize a public
 education-system finding.
@@ -59,14 +59,18 @@ education-system finding.
 privacy, governance, and role review remain future work.
 
 **Enforcement:** VTRACE review and verification keep public corpus promotion
-separate from workspace validation.
+separate from workspace validation. `docs/public-claim-boundaries.v1.json`
+records fixture-backed workspace validation, public corpus authority, blocked
+public-corpus claims, and required public corpus gates in machine-readable form.
 
 **Evidence:** `docs/vtrace/VERIFICATION.md`, `docs/vtrace/REVIEW.md`,
-`PRODUCT_PLAN.md`, and `context/waves/2026-06-26-slate-implementation/WAVE.md`.
+`PRODUCT_PLAN.md`, `context/waves/2026-06-26-slate-implementation/WAVE.md`,
+`docs/public-claim-boundaries.v1.json`, and
+`crates/slate-cli/tests/pitfall_policy.rs`.
 
 ## SLATE-I-05: Public Reuse Requires Boundary Review
 
-**Status:** PARTIAL
+**Status:** VERIFIED
 
 **Claim:** Public or downstream reuse requires scope boundary language and role
 review before SLATE output is treated as a decision artifact.
@@ -75,7 +79,12 @@ review before SLATE output is treated as a decision artifact.
 funding, accreditation, labor, or governance authority.
 
 **Enforcement:** README/product boundaries, VTRACE review, role panel, and
-PITFALL tracking keep public reuse bounded.
+PITFALL tracking keep public reuse bounded. `docs/public-claim-boundaries.v1.json`
+records aggregate reuse authority, blocked student-level and education-authority
+claims, required reuse fields, and Scope Keeper ownership in machine-readable
+form.
 
 **Evidence:** `README.md`, `PRODUCT_PLAN.md`, `.roles/ROLE.md`,
-`docs/vtrace/REVIEW.md`, and `.pitfall/slate-pitfalls.md`.
+`docs/vtrace/REVIEW.md`, `.pitfall/slate-pitfalls.md`,
+`docs/public-claim-boundaries.v1.json`, and
+`crates/slate-cli/tests/pitfall_policy.rs`.

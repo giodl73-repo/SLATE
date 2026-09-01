@@ -1,0 +1,93 @@
+{
+  "$schema": "slate.public-claim-boundaries.v1",
+  "owner": "SLATE maintainers",
+  "purpose": "Machine-readable boundaries for aggregate tooling, fixture validation, public corpus promotion, and education-authority claims.",
+  "authority": {
+    "aggregate_reference_analysis": "SLATE",
+    "fixture_backed_workspace_validation": "SLATE implementation and VTRACE verification",
+    "public_aggregate_corpus_validation": "first public corpus wave with source, privacy, governance, scale, demand-basis, and role review",
+    "student_level_advice_or_records": "not accepted in SLATE",
+    "education_authority_claims": "qualified external authority and source path",
+    "district_state_ministry_board_institution_or_funder_endorsement": "named external owner only",
+    "customer_or_local_adaptation": "aggregate-only adoption worksheet plus source and role review"
+  },
+  "pitfall_boundaries": [
+    {
+      "pitfall": "SLATE-PF-02",
+      "required_owner": "Scope Keeper",
+      "source_layer": "aggregate or synthetic education-access tooling",
+      "may_support": [
+        "aggregate reference review",
+        "source inventory scoping",
+        "scale-bounded access analysis",
+        "transfer-strain evidence",
+        "future public corpus work package"
+      ],
+      "blocked_claims": [
+        "student-level advice",
+        "student record use",
+        "assignment decision",
+        "funding decision",
+        "accreditation determination",
+        "licensing determination",
+        "attendance-boundary determination",
+        "labor-contract determination",
+        "curriculum determination",
+        "institutional endorsement",
+        "advocacy brief"
+      ],
+      "required_reuse_fields": [
+        "scope",
+        "scale",
+        "source_inventory",
+        "demand_basis",
+        "privacy_boundary",
+        "governance_boundary",
+        "role_review"
+      ]
+    },
+    {
+      "pitfall": "SLATE-PF-05",
+      "required_owner": "Citation Auditor",
+      "source_layer": "fixture-backed workspace validation",
+      "may_support": [
+        "implementation baseline confidence",
+        "schema and API verification",
+        "CLI sanity",
+        "synthetic fixture replay",
+        "public corpus readiness planning"
+      ],
+      "blocked_claims": [
+        "validated public education-system finding",
+        "source-backed public corpus complete",
+        "public adequacy result",
+        "customer-ready corpus validation",
+        "district readiness",
+        "state readiness",
+        "ministry readiness",
+        "board readiness",
+        "funder readiness"
+      ],
+      "required_public_corpus_gates": [
+        "source review",
+        "privacy review",
+        "governance review",
+        "scale declaration",
+        "demand-basis declaration",
+        "citation audit",
+        "parliament review",
+        "editorial review"
+      ]
+    }
+  ],
+  "validation": [
+    "cargo fmt --all -- --check",
+    "cargo clippy --workspace --all-targets -- -D warnings",
+    "cargo test --workspace --locked",
+    "cargo test -p slate-cli --test pitfall_policy --locked",
+    "cargo run -p slate-cli -- --help",
+    "pitfall-cli validate",
+    "check_pitfall.py",
+    "git diff --check"
+  ]
+}

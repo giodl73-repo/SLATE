@@ -22,7 +22,7 @@ and `crates/slate-score/src/lib.rs`.
 
 ## SLATE-PF-02: Student-Level Or Authority Claim Leaks From Aggregate Tooling
 
-**Status:** OPEN
+**Status:** MITIGATED
 
 **Pattern:** Synthetic or aggregate access analysis is reused as student advice,
 assignment, funding, accreditation, licensing, boundary, labor, curriculum, or
@@ -36,9 +36,20 @@ which invites decision use before source/privacy/governance review is complete.
 
 **Structural solution:** Keep no-student-record and no-authority language
 visible, and require full role review before a public corpus finding.
+`docs/public-claim-boundaries.v1.json` now records aggregate-analysis authority,
+blocked student-level and education-authority claims, required reuse fields, and
+Scope Keeper ownership in machine-readable form.
 
 **Evidence:** `README.md`, `PRODUCT_PLAN.md`, `docs/adoption/README.md`,
-`docs/vtrace/REVIEW.md`, and `.roles/ROLE.md`.
+`docs/vtrace/REVIEW.md`, `.roles/ROLE.md`,
+`docs/public-claim-boundaries.v1.json`, and
+`crates/slate-cli/tests/pitfall_policy.rs`.
+
+**Test:** `cargo test -p slate-cli --test pitfall_policy --locked` parses the
+public-claim boundary and asserts that aggregate tooling cannot claim
+student-level advice, student record use, assignment, funding, accreditation,
+licensing, attendance-boundary, labor-contract, curriculum, endorsement, or
+advocacy authority.
 
 ## SLATE-PF-03: Transfer Strain Gets Forced Into Physical-Infrastructure Model
 
@@ -83,7 +94,7 @@ implementation from still-open public corpus validation.
 
 ## SLATE-PF-05: Fixture Validation Becomes Public Corpus Validation
 
-**Status:** OPEN
+**Status:** MITIGATED
 
 **Pattern:** Passing workspace tests and synthetic fixtures are treated as proof
 of a public education-system finding.
@@ -97,7 +108,17 @@ still future work.
 
 **Structural solution:** Keep fixture validation and public corpus validation
 separate until source, privacy, governance, scale, demand-basis, and full role
-review evidence exist.
+review evidence exist. `docs/public-claim-boundaries.v1.json` now records
+fixture-backed validation authority, blocked public-corpus claims, required
+public corpus gates, and Citation Auditor ownership in machine-readable form.
 
 **Evidence:** `docs/vtrace/VERIFICATION.md`, `docs/vtrace/REVIEW.md`,
-`PRODUCT_PLAN.md`, and `cargo test --workspace --locked`.
+`PRODUCT_PLAN.md`, `cargo test --workspace --locked`,
+`docs/public-claim-boundaries.v1.json`, and
+`crates/slate-cli/tests/pitfall_policy.rs`.
+
+**Test:** `cargo test -p slate-cli --test pitfall_policy --locked` parses the
+public-claim boundary and asserts that fixture-backed validation cannot claim a
+validated public education-system finding, complete source-backed public corpus,
+public adequacy result, customer-ready corpus validation, or district, state,
+ministry, board, or funder readiness.

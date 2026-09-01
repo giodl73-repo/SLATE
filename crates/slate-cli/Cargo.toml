@@ -11,3 +11,6 @@ slate-corpus = { path = "../slate-corpus" }
 slate-score = { path = "../slate-score" }
 slate-tier = { path = "../slate-tier" }
 slate-gap = { path = "../slate-gap" }
+
+[dev-dependencies]
+serde_json = "1"
