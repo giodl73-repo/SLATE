@@ -46,7 +46,7 @@ fn safe_id(text: &str) -> bool {
             .all(|c| c.is_ascii_alphanumeric() || b"-_".contains(&c))
 }
 
-/// Evaluate the native network's adjacent-capacity arithmetic only.
+/// Evaluate a bounded native graph task or a frozen public-source query.
 pub fn evaluate(input: &str) -> Result<String, String> {
     if input.len() > MAX_INPUT_BYTES {
         return Err("Use at most 64 KiB of bounded task JSON".into());
