@@ -111,8 +111,6 @@ CORPUS -> SCORE -> TIER-SLA -> GAP -> CONCEPT -> REVIEW -> DESIGN
 - [`context/waves/`](context/waves)
 - [`.roles/ROLE.md`](.roles/ROLE.md)
 
-## License
-
 ## Browser pathway illustration
 
 [Open SLATE](https://giodl73-repo.github.io/SLATE/) to edit a fictional local
