@@ -6,3 +6,5 @@
 
 select,input[type=number]{font:inherit;padding:8px;border:1px solid var(--muted);background:#fff;color:var(--ink);max-width:100%}#diagram{width:100%;max-width:650px;height:auto;background:#edf1e8;border:1px solid var(--line);border-radius:6px}.link-control{border-top:1px solid var(--line);padding:10px 0}.link-control label{font-size:14px}.link-control input[type=number]{display:block;width:230px}.metrics-table{font-size:14px}
 #diagram text{paint-order:stroke;stroke:#edf1e8;stroke-width:4px;stroke-linejoin:round}
+
+.source-note{padding:1rem 0}.source-note p{overflow-wrap:anywhere}#source-coverage article{padding:1rem 0}#source-coverage p{margin:.5rem 0}.source-table{table-layout:fixed;min-width:0;font-size:14px}.source-table th,.source-table td{overflow-wrap:anywhere}#nces-source{padding-top:32px}.source-downloads{overflow-wrap:anywhere}@media(max-width:600px){.source-table{font-size:12px}.source-table th,.source-table td{padding:8px 4px}}

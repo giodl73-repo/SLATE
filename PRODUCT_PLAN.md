@@ -12,11 +12,16 @@ gaps, and test whether SHIELD's service-network transfer strains recur.
 - DIM-01..13 scale-aware evidence contracts.
 - Explicit transfer-strain and null-result posture.
 - Deterministic synthetic fixtures; no student records.
+- Frozen NCES CCD Table 2 source explorer for 2023–24/2024–25: matched published
+  counts/ratios, null-preserving changes and explicit state/DC coverage. This is
+  source exploration, with no source-to-graph calibration or service promotion.
 
 ## Next public work
 
-1. Select a bounded public aggregate-data corpus.
-2. Publish source, privacy, governance, and interpretation constraints.
+1. Expand and independently review the first bounded NCES aggregate-source slice.
+2. Add matched grade/program/staffing/access evidence under the published source,
+   privacy, governance and interpretation constraints; state ratios alone do not
+   establish these properties.
 3. Separate measurable access/capacity from equity, trust, and outcomes.
 4. Review the first finding through education, labor, governance, and equity roles.
 

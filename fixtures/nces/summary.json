@@ -1,0 +1,1103 @@
+{
+  "schema": "slate.nces-table2.v1",
+  "captured_at": "2026-10-24T15:09:16.414502+00:00",
+  "releases": [
+    {
+      "school_year": "2023-24",
+      "source_id": "nces-ccd-2023-24-table2-final-v1a",
+      "url": "https://nces.ed.gov/ccd/tables/202324_summary_2.asp",
+      "sha256": "d9ee078534a6f1b944a8a8c049bb659c7061fdde128afb31369573d8121b1d4d",
+      "notes": [
+        "Department of Defense Education Activity (DoDEA), Bureau of Indian Education, and other jurisdictions",
+        "— Not available.",
+        "Operating schools/districts include all those providing services as of the start of the reported school year.",
+        "The student membership and teacher counts are from the state education agency (SEA) data files referenced in the source note below. Data for teachers are expressed in full-time equivalents (FTE). Counts include Pre-Kindergarten through grade 13. Specifically, U.S. totals for SY 2023–24 include 1,462,046 Pre-kindergartners and 73,012 Pre-kindergarten teachers. Student membership excludes adult education students.",
+        "U.S. totals include the 50 states and the District of Columbia.",
+        "The member LEAs within the New York City supervisory union are reported as a single LEA. Refer to the EDFacts Directory (FS029) file specifications for additional information on the relationship between the CCD directory variables UNION and LEA_TYPE (https://www.ed.gov/edfacts-file-specifications).",
+        "SOURCE: U.S. Department of Education, National Center for Education Statistics, Common Core of Data (CCD), \"Public Elementary/Secondary School Universe Survey,\" 2023–24, Final Version 1a, \"Local Education Agency Universe Survey,\" 2023–24, Final Version 1a, and \"State Nonfiscal Survey of Public Elementary/Secondary Education,\" 2023–24, Final Version 1a."
+      ],
+      "rows": [
+        {
+          "jurisdiction": "United States",
+          "group": "us_total",
+          "operating_schools": "99,297",
+          "operating_districts": "19,186",
+          "student_membership": "49,404,386",
+          "teacher_fte": "3,253,091",
+          "pupil_teacher_ratio": "15.2"
+        },
+        {
+          "jurisdiction": "Alabama",
+          "group": "state_dc",
+          "operating_schools": "1,524",
+          "operating_districts": "156",
+          "student_membership": "748,650",
+          "teacher_fte": "42,858",
+          "pupil_teacher_ratio": "17.5"
+        },
+        {
+          "jurisdiction": "Alaska",
+          "group": "state_dc",
+          "operating_schools": "494",
+          "operating_districts": "54",
+          "student_membership": "131,243",
+          "teacher_fte": "7,221",
+          "pupil_teacher_ratio": "18.2"
+        },
+        {
+          "jurisdiction": "Arizona",
+          "group": "state_dc",
+          "operating_schools": "2,427",
+          "operating_districts": "685",
+          "student_membership": "1,117,630",
+          "teacher_fte": "49,260",
+          "pupil_teacher_ratio": "22.7"
+        },
+        {
+          "jurisdiction": "Arkansas",
+          "group": "state_dc",
+          "operating_schools": "1,101",
+          "operating_districts": "304",
+          "student_membership": "484,978",
+          "teacher_fte": "38,755",
+          "pupil_teacher_ratio": "12.5"
+        },
+        {
+          "jurisdiction": "California",
+          "group": "state_dc",
+          "operating_schools": "10,326",
+          "operating_districts": "2,108",
+          "student_membership": "5,837,338",
+          "teacher_fte": "268,195",
+          "pupil_teacher_ratio": "21.8"
+        },
+        {
+          "jurisdiction": "Colorado",
+          "group": "state_dc",
+          "operating_schools": "1,908",
+          "operating_districts": "272",
+          "student_membership": "865,661",
+          "teacher_fte": "53,776",
+          "pupil_teacher_ratio": "16.1"
+        },
+        {
+          "jurisdiction": "Connecticut",
+          "group": "state_dc",
+          "operating_schools": "1,010",
+          "operating_districts": "208",
+          "student_membership": "512,652",
+          "teacher_fte": "43,104",
+          "pupil_teacher_ratio": "11.9"
+        },
+        {
+          "jurisdiction": "Delaware",
+          "group": "state_dc",
+          "operating_schools": "234",
+          "operating_districts": "45",
+          "student_membership": "141,842",
+          "teacher_fte": "9,909",
+          "pupil_teacher_ratio": "14.3"
+        },
+        {
+          "jurisdiction": "District of Columbia",
+          "group": "state_dc",
+          "operating_schools": "245",
+          "operating_districts": "72",
+          "student_membership": "92,794",
+          "teacher_fte": "8,335",
+          "pupil_teacher_ratio": "11.1"
+        },
+        {
+          "jurisdiction": "Florida",
+          "group": "state_dc",
+          "operating_schools": "4,229",
+          "operating_districts": "82",
+          "student_membership": "2,872,335",
+          "teacher_fte": "155,800",
+          "pupil_teacher_ratio": "18.4"
+        },
+        {
+          "jurisdiction": "Georgia",
+          "group": "state_dc",
+          "operating_schools": "2,327",
+          "operating_districts": "253",
+          "student_membership": "1,749,701",
+          "teacher_fte": "123,640",
+          "pupil_teacher_ratio": "14.2"
+        },
+        {
+          "jurisdiction": "Hawaii",
+          "group": "state_dc",
+          "operating_schools": "295",
+          "operating_districts": "1",
+          "student_membership": "169,308",
+          "teacher_fte": "12,113",
+          "pupil_teacher_ratio": "14.0"
+        },
+        {
+          "jurisdiction": "Idaho",
+          "group": "state_dc",
+          "operating_schools": "801",
+          "operating_districts": "190",
+          "student_membership": "316,414",
+          "teacher_fte": "17,965",
+          "pupil_teacher_ratio": "17.6"
+        },
+        {
+          "jurisdiction": "Illinois",
+          "group": "state_dc",
+          "operating_schools": "4,400",
+          "operating_districts": "1,031",
+          "student_membership": "1,846,264",
+          "teacher_fte": "136,492",
+          "pupil_teacher_ratio": "13.5"
+        },
+        {
+          "jurisdiction": "Indiana",
+          "group": "state_dc",
+          "operating_schools": "1,917",
+          "operating_districts": "444",
+          "student_membership": "1,032,723",
+          "teacher_fte": "67,374",
+          "pupil_teacher_ratio": "15.3"
+        },
+        {
+          "jurisdiction": "Iowa",
+          "group": "state_dc",
+          "operating_schools": "1,318",
+          "operating_districts": "336",
+          "student_membership": "508,112",
+          "teacher_fte": "36,068",
+          "pupil_teacher_ratio": "14.1"
+        },
+        {
+          "jurisdiction": "Kansas",
+          "group": "state_dc",
+          "operating_schools": "1,348",
+          "operating_districts": "337",
+          "student_membership": "483,505",
+          "teacher_fte": "37,167",
+          "pupil_teacher_ratio": "13.0"
+        },
+        {
+          "jurisdiction": "Kentucky",
+          "group": "state_dc",
+          "operating_schools": "1,544",
+          "operating_districts": "177",
+          "student_membership": "657,520",
+          "teacher_fte": "42,972",
+          "pupil_teacher_ratio": "15.3"
+        },
+        {
+          "jurisdiction": "Louisiana",
+          "group": "state_dc",
+          "operating_schools": "1,316",
+          "operating_districts": "190",
+          "student_membership": "708,190",
+          "teacher_fte": "48,864",
+          "pupil_teacher_ratio": "14.5"
+        },
+        {
+          "jurisdiction": "Maine",
+          "group": "state_dc",
+          "operating_schools": "593",
+          "operating_districts": "275",
+          "student_membership": "172,545",
+          "teacher_fte": "15,288",
+          "pupil_teacher_ratio": "11.3"
+        },
+        {
+          "jurisdiction": "Maryland",
+          "group": "state_dc",
+          "operating_schools": "1,408",
+          "operating_districts": "25",
+          "student_membership": "890,122",
+          "teacher_fte": "62,754",
+          "pupil_teacher_ratio": "14.2"
+        },
+        {
+          "jurisdiction": "Massachusetts",
+          "group": "state_dc",
+          "operating_schools": "1,832",
+          "operating_districts": "424",
+          "student_membership": "914,958",
+          "teacher_fte": "77,630",
+          "pupil_teacher_ratio": "11.8"
+        },
+        {
+          "jurisdiction": "Michigan",
+          "group": "state_dc",
+          "operating_schools": "3,485",
+          "operating_districts": "882",
+          "student_membership": "1,426,491",
+          "teacher_fte": "86,022",
+          "pupil_teacher_ratio": "16.6"
+        },
+        {
+          "jurisdiction": "Minnesota",
+          "group": "state_dc",
+          "operating_schools": "2,696",
+          "operating_districts": "574",
+          "student_membership": "869,967",
+          "teacher_fte": "59,181",
+          "pupil_teacher_ratio": "14.7"
+        },
+        {
+          "jurisdiction": "Mississippi",
+          "group": "state_dc",
+          "operating_schools": "1,032",
+          "operating_districts": "152",
+          "student_membership": "436,523",
+          "teacher_fte": "33,694",
+          "pupil_teacher_ratio": "13.0"
+        },
+        {
+          "jurisdiction": "Missouri",
+          "group": "state_dc",
+          "operating_schools": "2,475",
+          "operating_districts": "565",
+          "student_membership": "891,248",
+          "teacher_fte": "69,786",
+          "pupil_teacher_ratio": "12.8"
+        },
+        {
+          "jurisdiction": "Montana",
+          "group": "state_dc",
+          "operating_schools": "821",
+          "operating_districts": "479",
+          "student_membership": "149,291",
+          "teacher_fte": "10,828",
+          "pupil_teacher_ratio": "13.8"
+        },
+        {
+          "jurisdiction": "Nebraska",
+          "group": "state_dc",
+          "operating_schools": "1,098",
+          "operating_districts": "279",
+          "student_membership": "329,162",
+          "teacher_fte": "24,052",
+          "pupil_teacher_ratio": "13.7"
+        },
+        {
+          "jurisdiction": "Nevada",
+          "group": "state_dc",
+          "operating_schools": "762",
+          "operating_districts": "20",
+          "student_membership": "479,574",
+          "teacher_fte": "22,533",
+          "pupil_teacher_ratio": "21.3"
+        },
+        {
+          "jurisdiction": "New Hampshire",
+          "group": "state_dc",
+          "operating_schools": "507",
+          "operating_districts": "212",
+          "student_membership": "166,594",
+          "teacher_fte": "14,494",
+          "pupil_teacher_ratio": "11.5"
+        },
+        {
+          "jurisdiction": "New Jersey",
+          "group": "state_dc",
+          "operating_schools": "2,558",
+          "operating_districts": "698",
+          "student_membership": "1,392,567",
+          "teacher_fte": "118,031",
+          "pupil_teacher_ratio": "11.8"
+        },
+        {
+          "jurisdiction": "New Mexico",
+          "group": "state_dc",
+          "operating_schools": "888",
+          "operating_districts": "153",
+          "student_membership": "311,719",
+          "teacher_fte": "21,596",
+          "pupil_teacher_ratio": "14.4"
+        },
+        {
+          "jurisdiction": "New York",
+          "group": "state_dc",
+          "operating_schools": "4,814",
+          "operating_districts": "1071",
+          "student_membership": "2,533,449",
+          "teacher_fte": "217,522",
+          "pupil_teacher_ratio": "11.6"
+        },
+        {
+          "jurisdiction": "North Carolina",
+          "group": "state_dc",
+          "operating_schools": "2,716",
+          "operating_districts": "357",
+          "student_membership": "1,544,289",
+          "teacher_fte": "100,994",
+          "pupil_teacher_ratio": "15.3"
+        },
+        {
+          "jurisdiction": "North Dakota",
+          "group": "state_dc",
+          "operating_schools": "507",
+          "operating_districts": "221",
+          "student_membership": "119,033",
+          "teacher_fte": "9,639",
+          "pupil_teacher_ratio": "12.3"
+        },
+        {
+          "jurisdiction": "Ohio",
+          "group": "state_dc",
+          "operating_schools": "3,577",
+          "operating_districts": "1,057",
+          "student_membership": "1,675,300",
+          "teacher_fte": "100,659",
+          "pupil_teacher_ratio": "16.6"
+        },
+        {
+          "jurisdiction": "Oklahoma",
+          "group": "state_dc",
+          "operating_schools": "1,778",
+          "operating_districts": "594",
+          "student_membership": "698,761",
+          "teacher_fte": "42,751",
+          "pupil_teacher_ratio": "16.3"
+        },
+        {
+          "jurisdiction": "Oregon",
+          "group": "state_dc",
+          "operating_schools": "1,296",
+          "operating_districts": "222",
+          "student_membership": "547,424",
+          "teacher_fte": "31,083",
+          "pupil_teacher_ratio": "17.6"
+        },
+        {
+          "jurisdiction": "Pennsylvania",
+          "group": "state_dc",
+          "operating_schools": "2,926",
+          "operating_districts": "786",
+          "student_membership": "1,692,829",
+          "teacher_fte": "129,545",
+          "pupil_teacher_ratio": "13.1"
+        },
+        {
+          "jurisdiction": "Rhode Island",
+          "group": "state_dc",
+          "operating_schools": "312",
+          "operating_districts": "67",
+          "student_membership": "136,154",
+          "teacher_fte": "10,735",
+          "pupil_teacher_ratio": "12.7"
+        },
+        {
+          "jurisdiction": "South Carolina",
+          "group": "state_dc",
+          "operating_schools": "1,270",
+          "operating_districts": "96",
+          "student_membership": "793,860",
+          "teacher_fte": "57,243",
+          "pupil_teacher_ratio": "13.9"
+        },
+        {
+          "jurisdiction": "South Dakota",
+          "group": "state_dc",
+          "operating_schools": "712",
+          "operating_districts": "165",
+          "student_membership": "141,467",
+          "teacher_fte": "10,315",
+          "pupil_teacher_ratio": "13.7"
+        },
+        {
+          "jurisdiction": "Tennessee",
+          "group": "state_dc",
+          "operating_schools": "1,905",
+          "operating_districts": "148",
+          "student_membership": "1,004,625",
+          "teacher_fte": "66,417",
+          "pupil_teacher_ratio": "15.1"
+        },
+        {
+          "jurisdiction": "Texas",
+          "group": "state_dc",
+          "operating_schools": "9,217",
+          "operating_districts": "1,232",
+          "student_membership": "5,532,518",
+          "teacher_fte": "376,582",
+          "pupil_teacher_ratio": "14.7"
+        },
+        {
+          "jurisdiction": "Utah",
+          "group": "state_dc",
+          "operating_schools": "1,096",
+          "operating_districts": "155",
+          "student_membership": "689,883",
+          "teacher_fte": "33,537",
+          "pupil_teacher_ratio": "20.6"
+        },
+        {
+          "jurisdiction": "Vermont",
+          "group": "state_dc",
+          "operating_schools": "306",
+          "operating_districts": "188",
+          "student_membership": "82,455",
+          "teacher_fte": "7,962",
+          "pupil_teacher_ratio": "10.4"
+        },
+        {
+          "jurisdiction": "Virginia",
+          "group": "state_dc",
+          "operating_schools": "2,129",
+          "operating_districts": "208",
+          "student_membership": "1,258,852",
+          "teacher_fte": "94,035",
+          "pupil_teacher_ratio": "13.4"
+        },
+        {
+          "jurisdiction": "Washington",
+          "group": "state_dc",
+          "operating_schools": "2,553",
+          "operating_districts": "342",
+          "student_membership": "1,093,745",
+          "teacher_fte": "62,552",
+          "pupil_teacher_ratio": "17.5"
+        },
+        {
+          "jurisdiction": "West Virginia",
+          "group": "state_dc",
+          "operating_schools": "682",
+          "operating_districts": "65",
+          "student_membership": "246,883",
+          "teacher_fte": "18,688",
+          "pupil_teacher_ratio": "13.2"
+        },
+        {
+          "jurisdiction": "Wisconsin",
+          "group": "state_dc",
+          "operating_schools": "2,224",
+          "operating_districts": "468",
+          "student_membership": "814,202",
+          "teacher_fte": "59,623",
+          "pupil_teacher_ratio": "13.7"
+        },
+        {
+          "jurisdiction": "Wyoming",
+          "group": "state_dc",
+          "operating_schools": "358",
+          "operating_districts": "61",
+          "student_membership": "91,036",
+          "teacher_fte": "7,452",
+          "pupil_teacher_ratio": "12.2"
+        },
+        {
+          "jurisdiction": "DoDEA",
+          "group": "other_jurisdiction",
+          "operating_schools": "—",
+          "operating_districts": "—",
+          "student_membership": "—",
+          "teacher_fte": "—",
+          "pupil_teacher_ratio": "—"
+        },
+        {
+          "jurisdiction": "Bureau of Indian Education",
+          "group": "other_jurisdiction",
+          "operating_schools": "174",
+          "operating_districts": "174",
+          "student_membership": "36,779",
+          "teacher_fte": "2,903",
+          "pupil_teacher_ratio": "12.7"
+        },
+        {
+          "jurisdiction": "American Samoa",
+          "group": "other_jurisdiction",
+          "operating_schools": "29",
+          "operating_districts": "1",
+          "student_membership": "—",
+          "teacher_fte": "—",
+          "pupil_teacher_ratio": "—"
+        },
+        {
+          "jurisdiction": "Guam",
+          "group": "other_jurisdiction",
+          "operating_schools": "45",
+          "operating_districts": "5",
+          "student_membership": "—",
+          "teacher_fte": "1,684",
+          "pupil_teacher_ratio": "—"
+        },
+        {
+          "jurisdiction": "Northern Marianas",
+          "group": "other_jurisdiction",
+          "operating_schools": "35",
+          "operating_districts": "1",
+          "student_membership": "9,217",
+          "teacher_fte": "539",
+          "pupil_teacher_ratio": "17.1"
+        },
+        {
+          "jurisdiction": "Puerto Rico",
+          "group": "other_jurisdiction",
+          "operating_schools": "858",
+          "operating_districts": "1",
+          "student_membership": "240,910",
+          "teacher_fte": "24,591",
+          "pupil_teacher_ratio": "9.8"
+        },
+        {
+          "jurisdiction": "U.S. Virgin Islands",
+          "group": "other_jurisdiction",
+          "operating_schools": "20",
+          "operating_districts": "2",
+          "student_membership": "10,312",
+          "teacher_fte": "908",
+          "pupil_teacher_ratio": "11.4"
+        }
+      ]
+    },
+    {
+      "school_year": "2024-25",
+      "source_id": "nces-ccd-2024-25-table2-final-v1a",
+      "url": "https://nces.ed.gov/ccd/tables/202425_summary_2.asp",
+      "sha256": "f11f6dcec333a4ec22cf58579db5b01298c7fab7ec3c949de0c6fe30fec994e0",
+      "notes": [
+        "Department of Defense Education Activity (DoDEA), Bureau of Indian Education, and other jurisdictions",
+        "— Not available.",
+        "‡ The total number of teachers and pupil/teacher ratio across the 50 states and DC are not shown due to missing data for Tennessee in SY 2024–25. The student membership for Guam was suppressed due to data quality concerns as Guam did not include charter school students in the Membership (FS052) SEA data submission.",
+        "Operating schools/districts include all those providing services as of the start of the reported school year.",
+        "The student membership and teacher counts are from the state education agency (SEA) data files referenced in the source note below. Data for teachers are expressed in full-time equivalents (FTE). Counts include Pre-Kindergarten through grade 13. Specifically, U.S. totals for SY 2024–25 include 1,483,492 Pre-kindergartners and 72,696 Pre-kindergarten teachers. Student membership excludes adult education students.",
+        "U.S. totals include the 50 states and the District of Columbia.",
+        "The member LEAs within the New York City supervisory union are reported as a single LEA. Refer to the EDFacts Directory (FS029) file specifications for additional information on the relationship between the CCD directory variables UNION and LEA_TYPE (https://www.ed.gov/edfacts-file-specifications).",
+        "SOURCE: U.S. Department of Education, National Center for Education Statistics, Common Core of Data (CCD), \"Public Elementary/Secondary School Universe Survey,\" 2024–25, Final Version 1a, \"Local Education Agency Universe Survey,\" 2024–25, Final Version 1a, and \"State Nonfiscal Survey of Public Elementary/Secondary Education,\" 2024–25, Final Version 1a."
+      ],
+      "rows": [
+        {
+          "jurisdiction": "United States",
+          "group": "us_total",
+          "operating_schools": "99,073",
+          "operating_districts": "19,183",
+          "student_membership": "49,269,882",
+          "teacher_fte": "‡",
+          "pupil_teacher_ratio": "‡"
+        },
+        {
+          "jurisdiction": "Alabama",
+          "group": "state_dc",
+          "operating_schools": "1,532",
+          "operating_districts": "159",
+          "student_membership": "751,060",
+          "teacher_fte": "43,161",
+          "pupil_teacher_ratio": "17.4"
+        },
+        {
+          "jurisdiction": "Alaska",
+          "group": "state_dc",
+          "operating_schools": "488",
+          "operating_districts": "53",
+          "student_membership": "129,876",
+          "teacher_fte": "6,858",
+          "pupil_teacher_ratio": "18.9"
+        },
+        {
+          "jurisdiction": "Arizona",
+          "group": "state_dc",
+          "operating_schools": "2,432",
+          "operating_districts": "686",
+          "student_membership": "1,103,894",
+          "teacher_fte": "61,859",
+          "pupil_teacher_ratio": "17.8"
+        },
+        {
+          "jurisdiction": "Arkansas",
+          "group": "state_dc",
+          "operating_schools": "1,106",
+          "operating_districts": "307",
+          "student_membership": "491,239",
+          "teacher_fte": "39,398",
+          "pupil_teacher_ratio": "12.5"
+        },
+        {
+          "jurisdiction": "California",
+          "group": "state_dc",
+          "operating_schools": "10,303",
+          "operating_districts": "2,099",
+          "student_membership": "5,805,510",
+          "teacher_fte": "267,944",
+          "pupil_teacher_ratio": "21.7"
+        },
+        {
+          "jurisdiction": "Colorado",
+          "group": "state_dc",
+          "operating_schools": "1,900",
+          "operating_districts": "273",
+          "student_membership": "865,077",
+          "teacher_fte": "53,489",
+          "pupil_teacher_ratio": "16.2"
+        },
+        {
+          "jurisdiction": "Connecticut",
+          "group": "state_dc",
+          "operating_schools": "1,007",
+          "operating_districts": "207",
+          "student_membership": "508,402",
+          "teacher_fte": "43,004",
+          "pupil_teacher_ratio": "11.8"
+        },
+        {
+          "jurisdiction": "Delaware",
+          "group": "state_dc",
+          "operating_schools": "236",
+          "operating_districts": "46",
+          "student_membership": "142,156",
+          "teacher_fte": "9,627",
+          "pupil_teacher_ratio": "14.8"
+        },
+        {
+          "jurisdiction": "District of Columbia",
+          "group": "state_dc",
+          "operating_schools": "245",
+          "operating_districts": "71",
+          "student_membership": "94,211",
+          "teacher_fte": "8,607",
+          "pupil_teacher_ratio": "10.9"
+        },
+        {
+          "jurisdiction": "Florida",
+          "group": "state_dc",
+          "operating_schools": "4,186",
+          "operating_districts": "83",
+          "student_membership": "2,859,600",
+          "teacher_fte": "155,946",
+          "pupil_teacher_ratio": "18.3"
+        },
+        {
+          "jurisdiction": "Georgia",
+          "group": "state_dc",
+          "operating_schools": "2,329",
+          "operating_districts": "253",
+          "student_membership": "1,744,662",
+          "teacher_fte": "124,125",
+          "pupil_teacher_ratio": "14.1"
+        },
+        {
+          "jurisdiction": "Hawaii",
+          "group": "state_dc",
+          "operating_schools": "296",
+          "operating_districts": "1",
+          "student_membership": "167,071",
+          "teacher_fte": "12,215",
+          "pupil_teacher_ratio": "13.7"
+        },
+        {
+          "jurisdiction": "Idaho",
+          "group": "state_dc",
+          "operating_schools": "796",
+          "operating_districts": "191",
+          "student_membership": "315,626",
+          "teacher_fte": "17,787",
+          "pupil_teacher_ratio": "17.7"
+        },
+        {
+          "jurisdiction": "Illinois",
+          "group": "state_dc",
+          "operating_schools": "4,398",
+          "operating_districts": "1,029",
+          "student_membership": "1,842,881",
+          "teacher_fte": "137,812",
+          "pupil_teacher_ratio": "13.4"
+        },
+        {
+          "jurisdiction": "Indiana",
+          "group": "state_dc",
+          "operating_schools": "1,919",
+          "operating_districts": "454",
+          "student_membership": "1,040,190",
+          "teacher_fte": "67,718",
+          "pupil_teacher_ratio": "15.4"
+        },
+        {
+          "jurisdiction": "Iowa",
+          "group": "state_dc",
+          "operating_schools": "1,318",
+          "operating_districts": "344",
+          "student_membership": "504,292",
+          "teacher_fte": "36,217",
+          "pupil_teacher_ratio": "13.9"
+        },
+        {
+          "jurisdiction": "Kansas",
+          "group": "state_dc",
+          "operating_schools": "1,341",
+          "operating_districts": "337",
+          "student_membership": "481,626",
+          "teacher_fte": "36,411",
+          "pupil_teacher_ratio": "13.2"
+        },
+        {
+          "jurisdiction": "Kentucky",
+          "group": "state_dc",
+          "operating_schools": "1,550",
+          "operating_districts": "177",
+          "student_membership": "657,263",
+          "teacher_fte": "42,762",
+          "pupil_teacher_ratio": "15.4"
+        },
+        {
+          "jurisdiction": "Louisiana",
+          "group": "state_dc",
+          "operating_schools": "1,308",
+          "operating_districts": "189",
+          "student_membership": "666,840",
+          "teacher_fte": "48,637",
+          "pupil_teacher_ratio": "13.7"
+        },
+        {
+          "jurisdiction": "Maine",
+          "group": "state_dc",
+          "operating_schools": "589",
+          "operating_districts": "275",
+          "student_membership": "167,309",
+          "teacher_fte": "15,162",
+          "pupil_teacher_ratio": "11.0"
+        },
+        {
+          "jurisdiction": "Maryland",
+          "group": "state_dc",
+          "operating_schools": "1,408",
+          "operating_districts": "25",
+          "student_membership": "891,525",
+          "teacher_fte": "63,071",
+          "pupil_teacher_ratio": "14.1"
+        },
+        {
+          "jurisdiction": "Massachusetts",
+          "group": "state_dc",
+          "operating_schools": "1,823",
+          "operating_districts": "421",
+          "student_membership": "915,932",
+          "teacher_fte": "77,221",
+          "pupil_teacher_ratio": "11.9"
+        },
+        {
+          "jurisdiction": "Michigan",
+          "group": "state_dc",
+          "operating_schools": "3,468",
+          "operating_districts": "882",
+          "student_membership": "1,423,933",
+          "teacher_fte": "86,462",
+          "pupil_teacher_ratio": "16.5"
+        },
+        {
+          "jurisdiction": "Minnesota",
+          "group": "state_dc",
+          "operating_schools": "2,741",
+          "operating_districts": "567",
+          "student_membership": "876,182",
+          "teacher_fte": "58,560",
+          "pupil_teacher_ratio": "15.0"
+        },
+        {
+          "jurisdiction": "Mississippi",
+          "group": "state_dc",
+          "operating_schools": "1,019",
+          "operating_districts": "152",
+          "student_membership": "431,864",
+          "teacher_fte": "32,037",
+          "pupil_teacher_ratio": "13.5"
+        },
+        {
+          "jurisdiction": "Missouri",
+          "group": "state_dc",
+          "operating_schools": "2,451",
+          "operating_districts": "565",
+          "student_membership": "889,059",
+          "teacher_fte": "70,411",
+          "pupil_teacher_ratio": "12.6"
+        },
+        {
+          "jurisdiction": "Montana",
+          "group": "state_dc",
+          "operating_schools": "842",
+          "operating_districts": "476",
+          "student_membership": "147,208",
+          "teacher_fte": "10,726",
+          "pupil_teacher_ratio": "13.7"
+        },
+        {
+          "jurisdiction": "Nebraska",
+          "group": "state_dc",
+          "operating_schools": "1,097",
+          "operating_districts": "280",
+          "student_membership": "330,622",
+          "teacher_fte": "24,201",
+          "pupil_teacher_ratio": "13.7"
+        },
+        {
+          "jurisdiction": "Nevada",
+          "group": "state_dc",
+          "operating_schools": "735",
+          "operating_districts": "20",
+          "student_membership": "477,563",
+          "teacher_fte": "24,465",
+          "pupil_teacher_ratio": "19.5"
+        },
+        {
+          "jurisdiction": "New Hampshire",
+          "group": "state_dc",
+          "operating_schools": "501",
+          "operating_districts": "212",
+          "student_membership": "164,153",
+          "teacher_fte": "14,438",
+          "pupil_teacher_ratio": "11.4"
+        },
+        {
+          "jurisdiction": "New Jersey",
+          "group": "state_dc",
+          "operating_schools": "2,557",
+          "operating_districts": "697",
+          "student_membership": "1,394,971",
+          "teacher_fte": "117,868",
+          "pupil_teacher_ratio": "11.8"
+        },
+        {
+          "jurisdiction": "New Mexico",
+          "group": "state_dc",
+          "operating_schools": "879",
+          "operating_districts": "154",
+          "student_membership": "307,110",
+          "teacher_fte": "24,781",
+          "pupil_teacher_ratio": "12.4"
+        },
+        {
+          "jurisdiction": "New York",
+          "group": "state_dc",
+          "operating_schools": "4,810",
+          "operating_districts": "1077",
+          "student_membership": "2,527,258",
+          "teacher_fte": "218,424",
+          "pupil_teacher_ratio": "11.6"
+        },
+        {
+          "jurisdiction": "North Carolina",
+          "group": "state_dc",
+          "operating_schools": "2,705",
+          "operating_districts": "356",
+          "student_membership": "1,555,418",
+          "teacher_fte": "97,257",
+          "pupil_teacher_ratio": "16.0"
+        },
+        {
+          "jurisdiction": "North Dakota",
+          "group": "state_dc",
+          "operating_schools": "514",
+          "operating_districts": "221",
+          "student_membership": "119,792",
+          "teacher_fte": "10,411",
+          "pupil_teacher_ratio": "11.5"
+        },
+        {
+          "jurisdiction": "Ohio",
+          "group": "state_dc",
+          "operating_schools": "3,543",
+          "operating_districts": "1,061",
+          "student_membership": "1,665,566",
+          "teacher_fte": "100,363",
+          "pupil_teacher_ratio": "16.6"
+        },
+        {
+          "jurisdiction": "Oklahoma",
+          "group": "state_dc",
+          "operating_schools": "1,781",
+          "operating_districts": "579",
+          "student_membership": "697,358",
+          "teacher_fte": "43,050",
+          "pupil_teacher_ratio": "16.2"
+        },
+        {
+          "jurisdiction": "Oregon",
+          "group": "state_dc",
+          "operating_schools": "1,291",
+          "operating_districts": "223",
+          "student_membership": "545,088",
+          "teacher_fte": "31,294",
+          "pupil_teacher_ratio": "17.4"
+        },
+        {
+          "jurisdiction": "Pennsylvania",
+          "group": "state_dc",
+          "operating_schools": "2,932",
+          "operating_districts": "787",
+          "student_membership": "1,691,456",
+          "teacher_fte": "129,658",
+          "pupil_teacher_ratio": "13.0"
+        },
+        {
+          "jurisdiction": "Rhode Island",
+          "group": "state_dc",
+          "operating_schools": "313",
+          "operating_districts": "67",
+          "student_membership": "135,978",
+          "teacher_fte": "10,557",
+          "pupil_teacher_ratio": "12.9"
+        },
+        {
+          "jurisdiction": "South Carolina",
+          "group": "state_dc",
+          "operating_schools": "1,277",
+          "operating_districts": "94",
+          "student_membership": "796,780",
+          "teacher_fte": "57,886",
+          "pupil_teacher_ratio": "13.8"
+        },
+        {
+          "jurisdiction": "South Dakota",
+          "group": "state_dc",
+          "operating_schools": "706",
+          "operating_districts": "165",
+          "student_membership": "141,065",
+          "teacher_fte": "10,227",
+          "pupil_teacher_ratio": "13.8"
+        },
+        {
+          "jurisdiction": "Tennessee",
+          "group": "state_dc",
+          "operating_schools": "1,913",
+          "operating_districts": "149",
+          "student_membership": "1,003,622",
+          "teacher_fte": "—",
+          "pupil_teacher_ratio": "—"
+        },
+        {
+          "jurisdiction": "Texas",
+          "group": "state_dc",
+          "operating_schools": "9,192",
+          "operating_districts": "1,233",
+          "student_membership": "5,545,640",
+          "teacher_fte": "371,144",
+          "pupil_teacher_ratio": "14.9"
+        },
+        {
+          "jurisdiction": "Utah",
+          "group": "state_dc",
+          "operating_schools": "1,097",
+          "operating_districts": "155",
+          "student_membership": "684,604",
+          "teacher_fte": "31,705",
+          "pupil_teacher_ratio": "21.6"
+        },
+        {
+          "jurisdiction": "Vermont",
+          "group": "state_dc",
+          "operating_schools": "304",
+          "operating_districts": "188",
+          "student_membership": "81,398",
+          "teacher_fte": "7,882",
+          "pupil_teacher_ratio": "10.3"
+        },
+        {
+          "jurisdiction": "Virginia",
+          "group": "state_dc",
+          "operating_schools": "2,126",
+          "operating_districts": "209",
+          "student_membership": "1,257,315",
+          "teacher_fte": "94,345",
+          "pupil_teacher_ratio": "13.3"
+        },
+        {
+          "jurisdiction": "Washington",
+          "group": "state_dc",
+          "operating_schools": "2,543",
+          "operating_districts": "341",
+          "student_membership": "1,094,502",
+          "teacher_fte": "61,269",
+          "pupil_teacher_ratio": "17.9"
+        },
+        {
+          "jurisdiction": "West Virginia",
+          "group": "state_dc",
+          "operating_schools": "676",
+          "operating_districts": "66",
+          "student_membership": "242,155",
+          "teacher_fte": "18,077",
+          "pupil_teacher_ratio": "13.4"
+        },
+        {
+          "jurisdiction": "Wisconsin",
+          "group": "state_dc",
+          "operating_schools": "2,190",
+          "operating_districts": "465",
+          "student_membership": "806,065",
+          "teacher_fte": "59,308",
+          "pupil_teacher_ratio": "13.6"
+        },
+        {
+          "jurisdiction": "Wyoming",
+          "group": "state_dc",
+          "operating_schools": "360",
+          "operating_districts": "62",
+          "student_membership": "89,915",
+          "teacher_fte": "7,427",
+          "pupil_teacher_ratio": "12.1"
+        },
+        {
+          "jurisdiction": "DoDEA",
+          "group": "other_jurisdiction",
+          "operating_schools": "—",
+          "operating_districts": "—",
+          "student_membership": "—",
+          "teacher_fte": "—",
+          "pupil_teacher_ratio": "—"
+        },
+        {
+          "jurisdiction": "Bureau of Indian Education",
+          "group": "other_jurisdiction",
+          "operating_schools": "174",
+          "operating_districts": "174",
+          "student_membership": "36,705",
+          "teacher_fte": "3,016",
+          "pupil_teacher_ratio": "12.2"
+        },
+        {
+          "jurisdiction": "American Samoa",
+          "group": "other_jurisdiction",
+          "operating_schools": "28",
+          "operating_districts": "1",
+          "student_membership": "—",
+          "teacher_fte": "—",
+          "pupil_teacher_ratio": "—"
+        },
+        {
+          "jurisdiction": "Guam",
+          "group": "other_jurisdiction",
+          "operating_schools": "45",
+          "operating_districts": "5",
+          "student_membership": "‡",
+          "teacher_fte": "1,508",
+          "pupil_teacher_ratio": "—"
+        },
+        {
+          "jurisdiction": "Northern Marianas",
+          "group": "other_jurisdiction",
+          "operating_schools": "35",
+          "operating_districts": "1",
+          "student_membership": "8,965",
+          "teacher_fte": "528",
+          "pupil_teacher_ratio": "17.0"
+        },
+        {
+          "jurisdiction": "Puerto Rico",
+          "group": "other_jurisdiction",
+          "operating_schools": "862",
+          "operating_districts": "1",
+          "student_membership": "235,819",
+          "teacher_fte": "24,389",
+          "pupil_teacher_ratio": "9.7"
+        },
+        {
+          "jurisdiction": "U.S. Virgin Islands",
+          "group": "other_jurisdiction",
+          "operating_schools": "20",
+          "operating_districts": "2",
+          "student_membership": "10,410",
+          "teacher_fte": "866",
+          "pupil_teacher_ratio": "12.0"
+        }
+      ]
+    }
+  ]
+}

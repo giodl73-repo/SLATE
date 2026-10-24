@@ -38,6 +38,24 @@ boundary.
 
 ## Use SLATE
 
+[Open the Rust/WASM workbench](https://giodl73-repo.github.io/SLATE/) to compare
+frozen NCES enrollment, teacher FTE and published pupil/teacher ratios for
+2023–24 and 2024–25. Choose a state or jurisdiction, inspect year changes,
+missing/withheld values, original notes and 50-state/DC reconciliation. Source
+counts do not establish class size, staffed seats or actual access. The fictional
+pathway graph remains a separate task below the source explorer.
+
+Original HTML, source hashes, normalized data and downloaded results accompany
+the site. [Source registry](data/sources.md), [WP-WEB-002](docs/vtrace/WP_WEB_002.md).
+To verify/re-extract the frozen source, run `python tools/nces_source.py` (or
+`--write` to regenerate); `python tools/build-pages.py` verifies it before build.
+
+Native source replay:
+
+```sh
+cargo run -p slate-web --bin slate-browser -- fixtures/nces-query-us.json
+```
+
 SLATE is public and open to use as a reference model for aggregate,
 evidence-gated education-access analysis. To scope a safe transfer test, source
 review, or aggregate-only local adaptation, start with

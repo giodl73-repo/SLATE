@@ -22,6 +22,10 @@ Thumbs.db
 /test-results/
 /playwright-report/
 
+# Local Python extraction/build bytecode
+__pycache__/
+*.pyc
+
 /dist/
 /.cache/
 /node_modules/
