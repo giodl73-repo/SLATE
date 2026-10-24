@@ -111,7 +111,27 @@ CORPUS -> SCORE -> TIER-SLA -> GAP -> CONCEPT -> REVIEW -> DESIGN
 - [`context/waves/`](context/waves)
 - [`.roles/ROLE.md`](.roles/ROLE.md)
 
-## License
+## Browser pathway illustration
+
+[Open SLATE](https://giodl73-repo.github.io/SLATE/) to edit a fictional local
+Surge-basis school graph. Increase adjacent seat ratings or disable a handoff;
+compare native incident-capacity arithmetic and connectivity to a named
+postsecondary target. Ratings do not establish staffed seats or eligibility.
+Staffing, program fit, outcomes, equity and governance remain explicit nulls.
+
+```sh
+cargo run -p slate-web --bin slate-browser -- fixtures/browser-reset.json
+python tools/build-pages.py
+npm ci
+npx playwright install chromium
+npm test
+```
+
+Use the pinned Rust toolchain and wasm32 target. The worker calls the unchanged
+`slate-network` core; source, WASM, fixtures, license notices and exact-commit
+provenance are linked on the site. See [WP-WEB-001](docs/vtrace/WP_WEB_001.md).
+
+## License terms
 
 SLATE uses separate licenses for software and content. Source code,
 executable scripts, tests, configuration, and ordinary software

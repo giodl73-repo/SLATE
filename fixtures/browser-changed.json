@@ -1,0 +1,55 @@
+{
+  "scale": "local",
+  "jurisdiction": "fictional-cedar",
+  "comparison_window": "synthetic-surge-enrollment",
+  "selected_node": "community",
+  "destination": "destination",
+  "nodes": [
+    {
+      "id": "community",
+      "name": "Cedar-secondary",
+      "role": "Secondary"
+    },
+    {
+      "id": "bridge",
+      "name": "Cedar-bridge",
+      "role": "Secondary"
+    },
+    {
+      "id": "destination",
+      "name": "Cedar-college",
+      "role": "Postsecondary"
+    },
+    {
+      "id": "elementary",
+      "name": "Cedar-elementary",
+      "role": "Elementary"
+    }
+  ],
+  "links": [
+    {
+      "id": "community-bridge",
+      "from": "community",
+      "to": "bridge",
+      "capacity_seats": 240,
+      "basis": "Surge",
+      "enabled": true
+    },
+    {
+      "id": "handoff",
+      "from": "bridge",
+      "to": "destination",
+      "capacity_seats": 80,
+      "basis": "Surge",
+      "enabled": true
+    },
+    {
+      "id": "elementary-bridge",
+      "from": "elementary",
+      "to": "bridge",
+      "capacity_seats": 60,
+      "basis": "Surge",
+      "enabled": true
+    }
+  ]
+}
