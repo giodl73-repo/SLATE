@@ -1,0 +1,2 @@
+# Frozen publisher captures are byte artifacts, including original whitespace.
+data/nces/*.html binary

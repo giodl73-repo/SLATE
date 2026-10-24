@@ -71,3 +71,24 @@ family, educator, rural community, workforce/economy and funder lenses retain
 their distinct access, workload, shortage, attainment and cost unknowns, deferred
 to that matched evidence work. No critical/major actionable finding remains.
 Repeat review at implementation exit; advance no service or fiscal hold.
+
+## Implementation exit
+
+2026-10-24: 41 native workspace tests pass; format/check/strict Clippy and
+wasm32-target Clippy pass. Four source queries match native canonical bytes
+inside executing WASM; all 14 browser cases pass (seven source cases plus seven
+graph regressions). Frozen originals' hashes and all 118 re-extracted rows
+verify; browser SHA-256 checks also match both downloaded originals. Source
+HTML line endings are byte-preserved through Git; generated Python bytecode is
+ignored. Desktop/mobile source layouts inspected. Artifact approximately 637 KB.
+
+The first native test assumption about Tennessee's marker was corrected against
+the original: Tennessee itself has an unavailable em dash; the US aggregate has
+a withheld double dagger. Guam's marker also changes with its source note. The
+adapter preserves those distinctions. No imputation or source-to-graph mapping.
+
+Implementing-agent Parliament, editorial and stakeholder lenses repeated against
+implementation: no critical/major actionable finding; all matched-service and
+external-validation defers above remain. Hosted checks gate master publication;
+TRACKER records exact deployed bytes, the live source task and education roundtrip
+before its separate pointer snapshot. No independent panel is claimed.

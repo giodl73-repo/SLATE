@@ -5,6 +5,8 @@ use std::collections::HashSet;
 
 pub const MAX_INPUT_BYTES: usize = 65_536;
 
+mod public_source;
+
 #[derive(Clone, Debug, Serialize, Deserialize)]
 #[serde(deny_unknown_fields)]
 pub struct Link {
@@ -46,6 +48,18 @@ fn safe_id(text: &str) -> bool {
 
 /// Evaluate the native network's adjacent-capacity arithmetic only.
 pub fn evaluate(input: &str) -> Result<String, String> {
+    if input.len() > MAX_INPUT_BYTES {
+        return Err("Use at most 64 KiB of bounded task JSON".into());
+    }
+    let envelope: serde_json::Value =
+        serde_json::from_str(input).map_err(|error| error.to_string())?;
+    if envelope.get("view").is_some() {
+        return public_source::evaluate(input);
+    }
+    evaluate_graph(input)
+}
+
+fn evaluate_graph(input: &str) -> Result<String, String> {
     if input.len() > MAX_INPUT_BYTES {
         return Err("Use at most 64 KiB of synthetic graph JSON".into());
     }
